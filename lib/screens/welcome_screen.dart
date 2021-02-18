@@ -19,10 +19,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   @override
   void initState() {
     super.initState();
-    controller = AnimationController(
-        vsync: this, duration: Duration(milliseconds: 1000));
+    controller = AnimationController(vsync : this ,duration: Duration(milliseconds: 1000));
     controller.forward();
   }
+
   @override
   void dispose() {
     // TODO: implement dispose
